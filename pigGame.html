@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pigGameCss.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="row mainRow">
+        
+        
+       
+        <div class="col-md-5 player-1 active">
+            <p class="playertag" id="winner-1">PLAYER 1</p>
+            <p class="playerscore" id="mainscore-1">0</p>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 playercollectcount">
+                    <p class="pending">PENDING</p>
+                    <p class="pendingval" id="pendingval-1">0</p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-5 player-2">
+            <p class="playertag " id="winner-2">PLAYER 2</p>
+            <p class="playerscore" id="mainscore-2">0</p>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 playercollectcount">
+                    <p class="pending">PENDING</p>
+                    <p class="pendingval" id="pendingval-2">0</p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+        <div class="col-md-2 controlarea">
+            <button><i class="material-icons md-70" id="new">fiber_new</i> </button>
+            <div class="row dicesize" id="diceimg">
+              
+            </div>
+            <button class="rolldice" id="rolldice"><i class="material-icons md-70">loop</i></button>
+            <button class="collect" id="collect">COLLECT</button>
+        </div>
+    
+        
+    </div>
+    <script src="scripts/pigGame.js"></script>
+</body>
